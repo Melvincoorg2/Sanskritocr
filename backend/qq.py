@@ -11,14 +11,14 @@ def recognize_handwritten_hindi(image_path: str) -> str:
     Returns:
         str: The extracted text from the image.
     """
-    API_KEY = "AIzaSyAHziV_PoBXVJgDWOBvtUd4pCxyOu6WNUo"  # Replace with your actual Google Vision API key
+    API_KEY = "apikey"  # Replace with your actual Google Vision API key
     url = f"https://vision.googleapis.com/v1/images:annotate?key={API_KEY}"
     
     # Read and encode image
     with open(image_path, "rb") as img_file:
         image_content = base64.b64encode(img_file.read()).decode("utf-8")
     
-    # Construct request
+    # Construct requestAIzaSyAHziV_PoBXVJgDWOBvtUd4pCxyOu6WNUo
     headers = {"Content-Type": "application/json"}
     payload = {
         "requests": [{
