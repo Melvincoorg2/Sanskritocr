@@ -51,7 +51,7 @@ import os
 import time
 
 # Step 1: Configure your API key (Load from environment variable for security)
-GOOGLE_API_KEY = "AIzaSyCjCfR6a13nE7hjxgY0AT9VUXf9dd5Vi7Q"  # Load API key from environment variable for security
+GOOGLE_API_KEY = "apikey"  # Load API key from environment variable for securityAIzaSyCjCfR6a13nE7hjxgY0AT9VUXf9dd5Vi7Q
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Step 2: Initialize the Gemini Pro model (make sure the model name is correct)
